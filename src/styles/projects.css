@@ -1,0 +1,50 @@
+/* fix the sizing differnce between the diiffrent screen sizes */
+.projects-main-container{
+    max-height: 100vw;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    color: #e0e7ff;
+}
+
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.my-projects-container{
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-arrow{
+    color: black;
+    font-size: 2.5rem;
+}
+
+.right-arrow{
+    color: black;
+    font-size: 2.5rem;
+}
+
+.my-projects{
+    border: solid black 1px;
+    width: 70vw;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img{
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+}
+
+.project-button-container{
+    
+}
+
+
+

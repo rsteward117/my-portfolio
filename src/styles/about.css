@@ -1,0 +1,88 @@
+
+
+.about-main-container{
+    max-height: 160vh;
+    font-family: 'Rubik', sans-serif;
+    color: #e0e7ff;
+}
+
+.name-title-container{
+    font-family: 'Rubik', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #818cf8;
+    align-items: center;
+    text-align: center;
+    color: #374151;
+}
+
+.about-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 380px);
+    justify-content: center;
+    grid-gap: 5px;
+    background: #404040;
+
+}
+
+@media only screen and (max-width: 768px){
+    .about-grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.my-portrait{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-portrait img{
+    max-width: 90%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 3px;
+}
+
+@media only screen and (min-width: 540px){
+    .my-portrait img{
+        max-width: 60%;
+    }
+}
+
+.my-story{
+    overflow: auto;
+}
+
+.my-story-header{
+    text-align: center;
+}
+
+.my-story p{
+    margin-top: 35px;
+}
+
+.my-skills{
+    grid-area: 2/1/2/3;
+}
+
+.my-skills-header{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.skills-img-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+}
+
+.skills-img-grid img{
+    max-width: 100px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+

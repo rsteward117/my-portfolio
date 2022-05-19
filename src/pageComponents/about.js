@@ -1,0 +1,45 @@
+import react, {useState} from "react";
+import Navbar from "../navigation/navbar";
+import Sidebar from "../navigation/sidebar";
+import '../styles/about.css'
+import myPortrait from '../assets/My_PORTRAIT.jpg'
+
+
+function About(){
+    return(
+        <>  
+            <div className="about-main-container">
+                <div className="name-title-container">
+                    <h1>Hi, my name is Randy Steward</h1>
+                    <h2>I'm an aspiring frontend web developer</h2>
+                </div>
+                <div className="about-grid-container">
+                    <section className="my-portrait grid-cell">
+                        <img src={myPortrait} alt="A picture of myself" />
+                    </section>
+                    <section className="my-story grid-cell">
+                        <div className="my-story-header">
+                            <h1>About Myself</h1>
+                        </div>
+                        <p>
+                            I've been self teaching myself to code and program, In hopes to gain employment as an frontend developer. 
+                            With this portfolio site I will demonstrate my skills and knowledge I've gathered so far on my self taught journey.
+                        </p>
+                    </section>
+                    <section className="my-skills grid-cell">
+                        <div className="my-skills-header"><h2>My Skills</h2></div>
+                        <div className="skills-img-grid">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default About;

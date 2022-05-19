@@ -1,0 +1,8 @@
+/* using this a the root font import to give to all of my css files */
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+
+body{
+    background-color: #6b7280;
+}

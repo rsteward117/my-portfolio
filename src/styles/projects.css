@@ -19,31 +19,84 @@ header{
 }
 
 .left-arrow{
-    color: black;
+    color: #404040;
     font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.left-arrow:hover{
+    font-size: 3rem;
+    transition: ease-in-out .5s;
+    margin-right: 10px;
 }
 
 .right-arrow{
-    color: black;
+    color: #404040;
     font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.right-arrow:hover{
+    font-size: 3rem;
+    transition: ease-in-out .5s;
+    margin-left: 10px;
 }
 
 .my-projects{
-    border: solid black 1px;
+    margin-top: 50px;
     width: 70vw;
-    height: 30vw;
+    height: 35vw;
     justify-content: center;
     align-items: center;
 }
 
 .project-img{
-    border: 1px solid black;
-    width: 100px;
-    height: 80px;
+    max-width: 70vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.project-image{
+    max-width: 70vw;
+    height: 30vw;
+}
+
+/* slide show sliding animation */
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+  
+.slide.active{
+    opacity: 1;
+    transition-duration: 2s;
 }
 
 .project-button-container{
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-btn{
+    border: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #404040;
+    color: #e0e7ff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.project-btn:hover{
+    color: #bae6fd;
+    border-bottom: 9px solid #bae6fd;
+    transition: ease-in-out .5s;
 }
 
 

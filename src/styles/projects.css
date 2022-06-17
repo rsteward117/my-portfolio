@@ -4,6 +4,13 @@
     justify-content: center;
     font-family: 'Rubik', sans-serif;
     color: #e0e7ff;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 560px){
+    .projects-main-container{
+        margin-bottom: 200px;
+    }
 }
 
 header{
@@ -50,16 +57,32 @@ header{
     align-items: center;
 }
 
-.project-img{
+.project-image-container{
     max-width: 70vw;
     height: 30vw;
     display: flex;
     justify-content: center;
 }
 
+@media screen and (max-width: 560px){
+    .project-image-container{
+        max-width: 80vw;
+        height: 45vw;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
 .project-image{
     max-width: 70vw;
     height: 30vw;
+}
+
+@media screen and (max-width: 560px){
+    .project-image{
+        max-width: 70vw;
+        height: 45vw;
+    }
 }
 
 /* slide show sliding animation */

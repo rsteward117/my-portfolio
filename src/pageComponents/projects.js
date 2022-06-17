@@ -62,7 +62,7 @@ function Projects(){
             <div className="my-projects-container">
                 <AiOutlineLeft className="left-arrow" onClick={prevsSlide}/>
                 <section className="my-projects">
-                    <div className="project-img">
+                    <div className="project-image-container">
                         {projectSliders.map((slide, index) => {
                             return(
                                 <div className={index === currentImage ? 'slide active' : 'slide' } key={index}>

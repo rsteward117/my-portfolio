@@ -19,9 +19,15 @@ function Navbar({ toggle }){
                 </div>
 
                 <div className='links-container'>
-                    <a className='link' to="/">About</a>
-                    <a className='link' to="/">Projects</a>
-                    <a className='link' to="/">Contact</a>
+                    <Link to="/" className='link' >
+                        About
+                    </Link>
+                    <Link to="/projects" className='link' >
+                        Projects
+                    </Link>
+                    <Link to="/contact" className='link' >
+                        Contact
+                    </Link>
                 </div>
 
 

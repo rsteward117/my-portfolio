@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import react, {useState} from "react";
 import Navbar from "./navigation/navbar";
@@ -6,7 +7,6 @@ import About from './pageComponents/about';
 import Projects from './pageComponents/projects';
 import Contact from './pageComponents/contact';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import React from 'react';
 
 function App() {
 
@@ -21,9 +21,9 @@ function App() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Router>
         <Routes>
-          <Route path='/' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route exact path='/' element={<About />} />
+          <Route exact path='/projects' element={<Projects />} />
+          <Route exact path='/contact' element={<Contact />} />
         </Routes>
       </Router>
     </>

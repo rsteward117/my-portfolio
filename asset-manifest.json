@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.34d46ea4.css",
-    "main.js": "/my-portfolio/static/js/main.a15c0c1b.js",
+    "main.css": "/my-portfolio/static/css/main.a5fadda9.css",
+    "main.js": "/my-portfolio/static/js/main.7afefc02.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/form-project.png": "/my-portfolio/static/media/form-project.f03764e30012afc69366.png",
     "static/media/My_PORTRAIT.jpg": "/my-portfolio/static/media/My_PORTRAIT.7ff4acca1b2903f03d25.jpg",
+    "static/media/weather-app.png": "/my-portfolio/static/media/weather-app.aa51bd85bfc41ea8ed05.png",
+    "static/media/calculator-project.png": "/my-portfolio/static/media/calculator-project.56b4e59188a3eedb47a1.png",
+    "static/media/Etch-a-sketch.png": "/my-portfolio/static/media/Etch-a-sketch.d175beb71dbe9b435fad.png",
     "index.html": "/my-portfolio/index.html",
-    "main.34d46ea4.css.map": "/my-portfolio/static/css/main.34d46ea4.css.map",
-    "main.a15c0c1b.js.map": "/my-portfolio/static/js/main.a15c0c1b.js.map",
+    "main.a5fadda9.css.map": "/my-portfolio/static/css/main.a5fadda9.css.map",
+    "main.7afefc02.js.map": "/my-portfolio/static/js/main.7afefc02.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34d46ea4.css",
-    "static/js/main.a15c0c1b.js"
+    "static/css/main.a5fadda9.css",
+    "static/js/main.7afefc02.js"
   ]
 }

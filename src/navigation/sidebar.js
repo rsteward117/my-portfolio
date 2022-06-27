@@ -1,6 +1,6 @@
 import react from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import {FaTimes} from 'react-icons/fa'
 import "../styles/sidebar.css"
 
@@ -18,13 +18,13 @@ function Sidebar({isOpen, toggle}){
                 <FaTimes />
             </div>
             <div className='sidebar-menu'>
-                <Link to="/" className='sidebar-link'>
+                <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className='link' >
                     About
                 </Link>
-                <Link to="/projects" className='sidebar-link'>
+                <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} className='link' >
                     Projects
                 </Link>
-                <Link to="/contact" className='sidebar-link'>
+                <Link to="contact" spy={true} smooth={true} offset={-80} duration={500} className='link' >
                     Contact
                 </Link>
             </div>

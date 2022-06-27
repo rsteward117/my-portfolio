@@ -8,7 +8,8 @@ import myPortrait from '../assets/My_PORTRAIT.jpg'
 function About(){
     return(
         <>  
-            <div className="about-main-container">
+        {/* the id inside the div is for react scroll so scroll has a point to scroll to */}
+            <div className="about-main-container" id="about">
                 <div className="name-title-container">
                     <h1>Hi, my name is Randy Steward</h1>
                     <h2>I'm an aspiring frontend web developer</h2>

@@ -6,7 +6,7 @@ import Sidebar from "./navigation/sidebar";
 import About from './pageComponents/about';
 import Projects from './pageComponents/projects';
 import Contact from './pageComponents/contact';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 
 function App() {
 
@@ -19,13 +19,9 @@ function App() {
     <>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Router>
-        <Routes>
-          <Route exact path='/' element={<About />} />
-          <Route exact path='/projects' element={<Projects />} />
-          <Route exact path='/contact' element={<Contact />} />
-        </Routes>
-      </Router>
+      <About />
+      <Projects />
+      <Contact />
     </>
   )
 }

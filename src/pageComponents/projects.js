@@ -55,7 +55,8 @@ function Projects(){
     }
     return(
         <>
-        <div className="projects-main-container">
+        {/* the id inside the div is for react scroll so scroll has a point to scroll to */}
+        <div className="projects-main-container" id="projects">
             <header>
                 <h1>My Projects</h1>
             </header>

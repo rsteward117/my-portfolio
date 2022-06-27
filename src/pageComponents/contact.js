@@ -5,7 +5,8 @@ function Contact (){
 
     return(
         <>
-            <div className="contact-main-container">
+            {/* the id inside the div is for react scroll so scroll has a point to scroll to */}
+            <div className="contact-main-container" id="contact">
                 <header>
                     <h1>Contact Me</h1>
                 </header>

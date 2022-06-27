@@ -90,6 +90,12 @@ nav{
     cursor: pointer;
 }
 
+.link .active{
+    color: #bae6fd;
+    border-bottom: 5px solid #bae6fd;
+    transition: ease-in-out .3s;
+}
+
 .link:hover{
     color: #bae6fd;
     border-bottom: 5px solid #bae6fd;

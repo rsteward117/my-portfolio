@@ -1,6 +1,6 @@
 /* fix the sizing differnce between the diiffrent screen sizes */
 .projects-main-container{
-    max-height: 100vw;
+    height: 35vw;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
     color: #e0e7ff;
@@ -10,16 +10,25 @@
 @media screen and (max-width: 560px){
     .projects-main-container{
         margin-bottom: 200px;
+        height: 100vw;
     }
 }
 
 header{
-    margin-top: 30px;
     text-align: center;
 }
 
+
+@media screen and (max-width: 560px){
+    header{
+        margin-top: 30%;
+        margin-bottom: 50px;
+    }
+}
+
+
 .my-projects-container{
-    height: 35vw;
+    height: 32vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,10 +40,10 @@ header{
     cursor: pointer;
 }
 
-.left-arrow:hover{
-    font-size: 3rem;
-    transition: ease-in-out .5s;
-    margin-right: 10px;
+@media screen and (max-width: 560px){
+    .left-arrow{
+        margin-top: 65px;
+    }
 }
 
 .right-arrow{
@@ -43,10 +52,10 @@ header{
     cursor: pointer;
 }
 
-.right-arrow:hover{
-    font-size: 3rem;
-    transition: ease-in-out .5s;
-    margin-left: 10px;
+@media screen and (max-width: 560px){
+    .right-arrow{
+        margin-top: 65px;
+    }
 }
 
 .my-projects{

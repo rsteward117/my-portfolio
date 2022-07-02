@@ -46,12 +46,15 @@ function Projects(){
         setCurrentGithubCode(currentGithubCode === projectSlidersLength - 1 ? 0 : currentGithubCode + 1);
 
     }
+    // console.log(currentImage)
+    // console.log(currentLiveLink)
+    console.log(currentGithubCode)
 
     function prevsSlide(){
         //this function similar the nextImage function it again starts at the current image which is 0 and take one step backwards in the array so if the image slider starts at the third image it will go back one step to the second image in the array.
         setCurrentImage(currentImage === 0 ? projectSlidersLength - 1 : currentImage - 1);
         setCurrentLiveLink(currentLiveLink === 0 ? projectSlidersLength - 1 : currentLiveLink - 1);
-        setCurrentLiveLink(currentGithubCode === 0 ? projectSlidersLength - 1 : currentGithubCode - 1);
+        setCurrentGithubCode(currentGithubCode === 0 ? projectSlidersLength - 1 : currentGithubCode - 1);
     }
     return(
         <>
@@ -87,7 +90,6 @@ function Projects(){
                                 </>
                             )
                         })}
-
                     </div>
                 </section>
                 <AiOutlineRight className="right-arrow" onClick={nextSlide}/>

@@ -2,7 +2,7 @@ import react, {useState} from "react";
 import Navbar from "../navigation/navbar";
 import Sidebar from "../navigation/sidebar";
 import '../styles/about.css'
-import myPortrait from '../assets/My_PORTRAIT.jpg'
+import myPhoto from '../assets/my_photo.jpg'
 
 
 function About(){
@@ -16,7 +16,7 @@ function About(){
                 </div>
                 <div className="about-grid-container">
                     <section className="my-portrait grid-cell">
-                        <img src={myPortrait} alt="A picture of myself" />
+                        <img src={myPhoto} alt="A picture of myself" />
                     </section>
                     <section className="my-story grid-cell">
                         <p>

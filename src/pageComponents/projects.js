@@ -3,9 +3,7 @@ import '../styles/projects.css';
 import { AiOutlineLeft } from "react-icons/ai";
 import { AiOutlineRight } from "react-icons/ai";
 import weatherAppImage from "../assets/weather-app.png"
-import etchASketchImage from "../assets/Etch-a-sketch.png"
 import formProjectImage from "../assets/form-project.png"
-import calculatorProjectImage from "../assets/calculator-project.png"
 // 2:work on the slides for the projects
 
 
@@ -15,24 +13,14 @@ function Projects(){
     const projectSliders = [
         {
             projectImage: weatherAppImage,
-            projectLive: "https://rsteward117.github.io/weather-Project/",
-            projectCode: "https://github.com/rsteward117/weather-Project"
-        },
-        {
-            projectImage: etchASketchImage,
-            projectLive: "https://rsteward117.github.io/Etch-a-Sketch-project/",
-            projectCode: "https://github.com/rsteward117/Etch-a-Sketch-project"
+            projectLive: "https://rsteward117.github.io/Weather-App/",
+            projectCode: "https://github.com/rsteward117/Weather-App"
         },
         {
             projectImage: formProjectImage,
             projectLive: "https://rsteward117.github.io/form-validation/",
             projectCode: "https://github.com/rsteward117/form-validation"
         },
-        {
-            projectImage: calculatorProjectImage,
-            projectLive: "https://rsteward117.github.io/calculator/",
-            projectCode: "https://github.com/rsteward117/calculator"
-        }
     ]
     
     const [currentImage, setCurrentImage] = useState(0);

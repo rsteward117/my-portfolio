@@ -22,7 +22,7 @@ function Contact (){
                     <section className="contact-link">
                         {/* remeber to come back to this once I make a linkedin account and link the account here. */}
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
-                        <a>Linkedin</a>
+                        <a href="https://www.linkedin.com/in/randy-steward-6607191a6/" target="_blank">Linkedin</a>
                     </section>
                 </div>
             </div>
